@@ -77,7 +77,7 @@ var XojoNewCodeGenerator = function() {
 					for(var propertyName in body) {
 						var key = propertyName;
 						var value = body[key];
-						client_code[client_code.length] = "sa.append \"" + key + "=\" + EncodeURLComponent(\"" + value + "\")";
+						client_code[client_code.length] = "strArr.append \"" + key + "=\" + EncodeURLComponent(\"" + value + "\")";
 					}
 					client_code[client_code.length] = "Dim data as String = Join(strArr,\"&\")";
 				}
