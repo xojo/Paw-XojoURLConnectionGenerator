@@ -4,7 +4,9 @@ A [Paw Extension](http://luckymarmot.com/paw/extensions/) to render the request 
 
 ## Installation
 
-Download the repository as a zip file, unzip and place the [Paw-XojoSyncURLConnectionGenerator-master](https://github.com/xojo/Paw-XojoSyncURLConnectionGenerator) folder in your Paw extensions folder.
+1. Download the repository as a zip file, unzip and place the [Paw-XojoSyncURLConnectionGenerator-master](https://github.com/xojo/Paw-XojoSyncURLConnectionGenerator) folder in your Paw extensions folder.
+
+2. Rename folder as com.xojo.PawExtensions.SyncURLConnectionCodeGenerator
 
 ## License
 
